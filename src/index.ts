@@ -35,8 +35,50 @@ export { QrCode } from "./icons/QrCode";
 export { MobileMoney } from "./icons/MobileMoney";
 export { Escrow } from "./icons/Escrow";
 
-export {
-  iconMetadata,
-  type IconMetadata,
-  type IconCategory,
-} from "./icon-registry";
+// Logistics
+export { Waybill } from "./icons/Waybill";
+export { DeliveryTruck } from "./icons/DeliveryTruck";
+export { PackageBox } from "./icons/PackageBox";
+export { Warehouse } from "./icons/Warehouse";
+
+// AI
+export { AiSpark } from "./icons/AiSpark";
+export { PromptInput } from "./icons/PromptInput";
+export { ModelChip } from "./icons/ModelChip";
+
+// Security
+export { Fingerprint } from "./icons/Fingerprint";
+export { ShieldLock } from "./icons/ShieldLock";
+export { Otp } from "./icons/Otp";
+
+// Commerce
+export { Storefront } from "./icons/Storefront";
+export { Barcode } from "./icons/Barcode";
+export { Receipt } from "./icons/Receipt";
+
+// Technology
+export { ApiConnector } from "./icons/ApiConnector";
+export { Webhook } from "./icons/Webhook";
+export { Terminal } from "./icons/Terminal";
+
+// Communication
+export { ChatThread } from "./icons/ChatThread";
+export { VoiceNote } from "./icons/VoiceNote";
+export { VideoCall } from "./icons/VideoCall";
+export { Broadcast } from "./icons/Broadcast";
+
+// Baseline / completeness
+export { Star } from "./icons/Star";
+export { Heart } from "./icons/Heart";
+export { Info } from "./icons/Info";
+export { AlertTriangle } from "./icons/AlertTriangle";
+export { Lock } from "./icons/Lock";
+export { Filter } from "./icons/Filter";
+export { Download } from "./icons/Download";
+export { Upload } from "./icons/Upload";
+export { MoreHorizontal } from "./icons/MoreHorizontal";
+export { Minus } from "./icons/Minus";
+export { Refresh } from "./icons/Refresh";
+export { Share } from "./icons/Share";
+export { Copy } from "./icons/Copy";
+export { ExternalLink } from "./icons/ExternalLink";
