@@ -1,6 +1,6 @@
 {
   "name": "switch-icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A lightweight, tree-shakeable React icon library — general UI icons plus West African fintech/payment-rail icons (bank transfer, USSD, POS, mobile money, and more).",
   "author": "Uchenna (Bitvora Tech / Howell Devs)",
   "license": "MIT",

@@ -82,3 +82,37 @@ export { Refresh } from "./icons/Refresh";
 export { Share } from "./icons/Share";
 export { Copy } from "./icons/Copy";
 export { ExternalLink } from "./icons/ExternalLink";
+
+// Media
+export { Image } from "./icons/Image";
+export { Video } from "./icons/Video";
+export { Music } from "./icons/Music";
+export { Microphone } from "./icons/Microphone";
+export { PlayCircle } from "./icons/PlayCircle";
+export { PauseCircle } from "./icons/PauseCircle";
+export { Volume } from "./icons/Volume";
+
+// Social
+export { Hashtag } from "./icons/Hashtag";
+export { Mention } from "./icons/Mention";
+export { Repost } from "./icons/Repost";
+export { Trending } from "./icons/Trending";
+export { Bookmark } from "./icons/Bookmark";
+export { Poll } from "./icons/Poll";
+export { Community } from "./icons/Community";
+
+// Solid variants
+export { StarSolid } from "./icons-solid/StarSolid";
+export { HeartSolid } from "./icons-solid/HeartSolid";
+export { BookmarkSolid } from "./icons-solid/BookmarkSolid";
+export { AiSparkSolid } from "./icons-solid/AiSparkSolid";
+export { BellSolid } from "./icons-solid/BellSolid";
+export { HomeSolid } from "./icons-solid/HomeSolid";
+export { UserSolid } from "./icons-solid/UserSolid";
+export { UsersSolid } from "./icons-solid/UsersSolid";
+export { MailSolid } from "./icons-solid/MailSolid";
+export { LockSolid } from "./icons-solid/LockSolid";
+export { ShieldLockSolid } from "./icons-solid/ShieldLockSolid";
+export { EscrowSolid } from "./icons-solid/EscrowSolid";
+export { PlayCircleSolid } from "./icons-solid/PlayCircleSolid";
+export { PauseCircleSolid } from "./icons-solid/PauseCircleSolid";
