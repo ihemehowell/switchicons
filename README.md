@@ -19,16 +19,25 @@ Switch Icons provides a consistent collection of UI, fintech, technology, commun
 ## Installation
 
 ```bash
-npm install switch-icon
-
-pnpm add switch-icons
+npm install switch-icons
+```
 
 or:
 
-yarn add switch-icons
-Usage
-import { ArrowRight, Naira, BankTransfer } from "switch-icons";
+```bash
+pnpm add switch-icons
+```
 
+or:
+
+```bash
+yarn add switch-icons
+```
+
+## Usage
+
+```tsx
+import { ArrowRight, Naira, BankTransfer } from "switch-icons";
 
 export function Example() {
   return (
@@ -39,107 +48,121 @@ export function Example() {
     </div>
   );
 }
-Customization
+```
+
+## Customization
 
 Icons inherit the current text color by default.
 
+```tsx
 <ArrowRight
   size={32}
   strokeWidth={1.5}
   className="text-blue-500"
 />
+```
 
 You can also provide a color directly:
 
+```tsx
 <Naira
   size={32}
   color="#111827"
 />
-Icon Categories
+```
 
-Switch Icons is being designed around practical categories:
+## Icon Categories
 
-Navigation
-UI & Actions
-People
-Communication
-Business
-Fintech
-Payment Rails
-Logistics
-AI
-Technology
-Commerce
-Security
-Media
-Social
-Brand Icons
-Design Philosophy
+Switch Icons is organized around practical categories:
+
+- Navigation
+- UI & Actions
+- People
+- Communication
+- Business
+- Fintech / Payment Rails
+- Logistics
+- AI
+- Technology
+- Commerce
+- Security
+- Media
+- Social
+
+Solid/filled variants are also available for a subset of icons where a filled version reads better than the outline (see `*Solid` exports, e.g. `StarSolid`, `ShieldLockSolid`).
+
+## Design Philosophy
 
 Switch Icons is not intended to be another collection of unrelated SVGs.
 
 Every icon is designed around a shared visual system:
 
-24×24 viewBox
-Consistent optical weight
-Consistent stroke behavior
-Controlled geometry
-Predictable scaling
-Developer-friendly APIs
-currentColor compatibility
+- 24×24 viewBox
+- Consistent optical weight
+- Consistent stroke behavior
+- Controlled geometry
+- Predictable scaling
+- Developer-friendly APIs
+- `currentColor` compatibility
 
 The goal is for icons from completely different categories to still feel like they belong to the same system.
 
-Status
+## Status
 
-Switch Icons is currently under active development.
+Switch Icons is published on npm and under active development. The API and icon collection may still evolve before a 1.0 release.
 
-The API and icon collection may change before the first stable release.
-
-Development
+## Development
 
 Clone the repository:
 
+```bash
 git clone https://github.com/ihemehowell/switchicons.git
 cd switchicons
+```
 
 Install dependencies:
 
+```bash
 pnpm install
+```
 
 Build the package:
 
+```bash
 pnpm build
-Related Project
+```
 
-The interactive icon explorer and documentation site are maintained separately:
+## Related Project
 
-Switch Icons Site
+The interactive icon explorer, documentation, and live code playground are maintained separately:
 
-https://github.com/ihemehowell/switch-icons-site
+**Switch Icons Site** — https://github.com/ihemehowell/switch-icons-site
 
-Roadmap
- Initial React icon architecture
- TypeScript support
- Core UI icons
- Fintech/payment icons
- Expanded UI collection
- Social icons
- Technology icons
- AI icons
- Logistics icons
- Commerce icons
- Brand icons
- Icon search
- Icon metadata
- Copy JSX
- Copy import
- SVG download
- Solid variants
- npm release
- Documentation website
-License
+## Roadmap
+
+- [x] Initial React icon architecture
+- [x] TypeScript support
+- [x] Core UI icons
+- [x] Fintech/payment icons
+- [x] Expanded UI collection
+- [x] Social icons
+- [x] Technology icons
+- [x] AI icons
+- [x] Logistics icons
+- [x] Commerce icons
+- [x] Media icons
+- [x] Solid variants (partial — expanding coverage over time)
+- [x] Icon search (in switch-icons-site)
+- [x] Icon metadata (categories + tags)
+- [x] Copy JSX (in switch-icons-site)
+- [x] Copy import (in switch-icons-site)
+- [x] Documentation website (switch-icons-site)
+- [x] npm release
+- [ ] SVG download
+- [ ] Brand icons — planned as a separate companion package (official, unmodified logos with attribution), not part of core `switch-icons`
+
+## License
 
 MIT © 2026 Iheme Howell
 
-See LICENSE for the full license.
+See [LICENSE](./LICENSE) for the full license.
