@@ -16,6 +16,8 @@ export function createSolidIcon(displayName: string, children: ReactNode) {
         strokeWidth = 2,
         color = "currentColor",
         className,
+        "aria-label": ariaLabel,
+        "aria-hidden": ariaHidden,
         ...props
       },
       ref
@@ -28,6 +30,7 @@ export function createSolidIcon(displayName: string, children: ReactNode) {
           width: size,
           height: size,
           viewBox: "0 0 24 24",
+          color, // lets child elements using stroke="currentColor" follow `color` too
           fill: color,
           stroke: "none",
           strokeWidth,
@@ -36,7 +39,10 @@ export function createSolidIcon(displayName: string, children: ReactNode) {
           className: className
             ? `switch-icon switch-icon-solid ${className}`
             : "switch-icon switch-icon-solid",
-          "aria-hidden": props["aria-label"] ? undefined : true,
+          "aria-label": ariaLabel,
+          "aria-hidden": ariaHidden ?? (ariaLabel ? undefined : true),
+          role: ariaLabel ? "img" : undefined,
+          focusable: "false",
           ...props,
         },
         children

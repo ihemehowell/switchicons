@@ -1,3 +1,6 @@
+export { iconMetadata } from "./icon-registry";
+export type { IconMetadata, IconCategory } from "./icon-registry";
+
 export type { IconProps } from "./types";
 export { createIcon } from "./create-icon";
 
